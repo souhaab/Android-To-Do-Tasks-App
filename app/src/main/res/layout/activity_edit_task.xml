@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE55C"
+    tools:context=".AddActivity"
+    android:padding="30dp">
+
+
+    <EditText
+        android:id="@+id/title_inputtsk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="100dp"
+        android:background="@color/white"
+        android:hint="Task Input"
+        android:lines="5"
+        android:gravity="top"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/update_buttontsk"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="Update"
+        android:textColor="@color/purple_200"
+        android:backgroundTint="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pages_input2" />
+
+    <Button
+        android:id="@+id/delete_buttontsk"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_button" />
+
+
+
+
+</LinearLayout>

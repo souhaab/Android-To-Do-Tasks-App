@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE55C"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:textSize="50dp"
+        android:text="Sign In" />
+
+    <EditText
+        android:id="@+id/usernamelog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Username"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="50dp"
+        android:paddingLeft="20dp"/>
+
+
+    <EditText
+        android:id="@+id/passwordlog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="50dp"
+        android:paddingLeft="20dp"/>
+
+
+    <Button
+        android:id="@+id/signinlog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>

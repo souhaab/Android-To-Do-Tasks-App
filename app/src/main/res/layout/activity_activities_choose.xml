@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFE55C"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivitiesChoose">
+
+    <ImageView
+        android:id="@+id/imagetasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/tasks" />
+
+    <ImageView
+        android:id="@+id/imagenotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagetasks"
+        android:layout_marginTop="46dp"
+        app:srcCompat="@drawable/notesssssszs" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Tasks"
+        android:textSize="30sp"
+        android:layout_below="@+id/imagetasks"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Notes"
+        android:textSize="30sp"
+        android:layout_below="@+id/imagenotes"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
